@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/vim-cpp-enhanced-highlight"]
 	path = pack/plugins/start/vim-cpp-enhanced-highlight
 	url = git@github.com:octol/vim-cpp-enhanced-highlight.git
+[submodule "pack/plugins/start/docker"]
+	path = pack/plugins/start/docker
+	url = https://github.com/docker/docker

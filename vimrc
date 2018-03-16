@@ -18,6 +18,7 @@ set encoding=utf-8		" Set default endcoding to UTF-8
 set autowrite			" Automatically save before :next, :make, etc.
 set autoread			" Automatically reread changed files without asking
 
+set noshowmode			" We show the mode with airline
 set incsearch			" Shows the match while typing
 set hlsearch			" Highlight found searches
 set ignorecase			" Search case insensitive...

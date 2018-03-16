@@ -23,6 +23,7 @@ set hlsearch			" Highlight found searches
 set ignorecase			" Search case insensitive...
 set smartcase			" ... but not when search pattern contains upper case characters
 set ttyfast
+filetype plugin indent on	" load file type plugins + indentation
 
 " Make Vim handle long lines better
 set wrap

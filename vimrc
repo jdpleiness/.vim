@@ -44,3 +44,6 @@ colorscheme onedark
 " Airline settings
 let g:airline_theme='bubblegum'
 let g:airline_solarized_bg='dark'
+
+" Vim Terraform settings
+let g:terraform_align=1

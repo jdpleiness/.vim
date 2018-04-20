@@ -36,6 +36,12 @@ syntax enable
 set background=dark
 colorscheme onedark
 
+"
+" Filetype settings
+"
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType docker-compose setlocal ts=2 sts=2 sw=2 expandtab
+
 
 "
 " Plugin settings

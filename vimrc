@@ -9,10 +9,10 @@ set noerrorbells		" No beeps.
 set number			" Show line numbers.
 set backspace=indent,eol,start	" Makes backspace work as expected.
 set showcmd			" Show incomplete commands at the bottom
+set wildmenu			" Display command line's tab complete options as a menu
 set hidden			" Manage multiple buffers effectively
 set history=1000		" Bigger history of executed commands
 
-set noswapfile			" Don't use swapfile
 set nobackup			" Don't create annoying backup files
 set nowritebackup
 set splitright			" Split veritcal windows right to the current window
@@ -35,6 +35,7 @@ set incsearch			" Find the next match as we type the search
 set hlsearch			" Highlight searches by default
 set ignorecase			" Ignore case when searching
 set smartcase			" ...Unless you type a capital
+set directory=$HOME/.vim/swp//	" Store swap files in this path rather than all over the place
 
 " Make Vim handle long lines better
 set wrap

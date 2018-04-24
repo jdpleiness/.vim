@@ -1,6 +1,7 @@
 .DS_Store
 *-rplugin~
 *.swp
+swp/
 .git/
 .git
 bundle/*/doc/tags

@@ -4,10 +4,13 @@ packadd! onedark.vim
 "
 " Settings
 "
+set nocompatible		" Use Vim settings, not Vi
 set noerrorbells		" No beeps.
 set number			" Show line numbers.
 set backspace=indent,eol,start	" Makes backspace work as expected.
-set showcmd			" Show what I am typing.
+set showcmd			" Show incomplete commands at the bottom
+set hidden			" Manage multiple buffers effectively
+set history=1000		" Bigger history of executed commands
 
 set noswapfile			" Don't use swapfile
 set nobackup			" Don't create annoying backup files
@@ -17,6 +20,7 @@ set splitbelow			" Split horizontal windows below to the current windows
 set encoding=utf-8		" Set default endcoding to UTF-8
 set autowrite			" Automatically save before :next, :make, etc.
 set autoread			" Automatically reread changed files without asking
+set linebreak			" Wrap lines in nice places
 
 set noshowmode			" We show the mode with airline
 set incsearch			" Shows the match while typing
@@ -24,7 +28,13 @@ set hlsearch			" Highlight found searches
 set ignorecase			" Search case insensitive...
 set smartcase			" ... but not when search pattern contains upper case characters
 set ttyfast
+set autoindent			" New lines inherit the indentation of previous lines
 filetype plugin indent on	" load file type plugins + indentation
+
+set incsearch			" Find the next match as we type the search
+set hlsearch			" Highlight searches by default
+set ignorecase			" Ignore case when searching
+set smartcase			" ...Unless you type a capital
 
 " Make Vim handle long lines better
 set wrap
